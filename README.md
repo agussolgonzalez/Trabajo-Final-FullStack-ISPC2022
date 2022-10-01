@@ -12,5 +12,5 @@
 
 #US05 Como usuario quiero que la pagina tenga un buscador para evacuar  mis dudas sobre distintas curriculas.
  
- 
+ #US06 Como usuario quiero que la página me brinde todos los archivos disponibles según el tema que busque
 
