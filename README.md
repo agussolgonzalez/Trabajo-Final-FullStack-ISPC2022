@@ -16,11 +16,11 @@
 
 #US04 Como usuario quiero tener una espacio para interactuar y cambiar opinones con otros usuarios.
 
-#TK04 
+#TK04 Cuadro de texto para poder comentar las publicaciones hechas por otros usuarios
 
 #US05 Como usuario quiero que la pagina tenga un buscador para evacuar  mis dudas sobre distintas curriculas.
  
-#TK05 Espacio de búsqueda con palabras clave
+#TK05 Espacio de búsqueda por categorias y con palabras clave
  
 #US06 Como usuario quiero compartir nuevos archivos que sean de utilidad para mis pares y tambien que la página me brinde todos los archivos disponibles según el tema que busque.
 
@@ -48,12 +48,12 @@
 
 #US12 Como usuario quiero que la pagina tenga su version Ingles-Español.
 
-#TK12
+#TK12 Disponer de un boton en todo el sitemap para poder cambiar de idioma.
 
 #US13 Como usuario quiero poder editar mi perfil, seleccionando etiquetas con mis intereses.
 
-#TK13
+#TK13 Pagina de edicion de perfil. Accesible con un boton que lleve al usuario a la misma.
 
 #US14 Como usuario quiero poder ver una pagina de feed, donde vea publicaciones con mis etiquetas de intereses, de los profes que sigo, clases y encuentros sincronicos.
 
-#TK14
+#TK14 Pagina de feed, que muestre publicaciones o anuncios, en orden cronologico, segun las etiquetas y/o categorias que sigo.
