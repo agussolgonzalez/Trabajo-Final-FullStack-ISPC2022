@@ -15,21 +15,38 @@
     <title>FORO</title>
   </head>
 
+  <!--CABECERA EMPIEZA-->
   <header class="cabecera">
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg bg-light px-4">
         <div class="container-fluid">
-            <a class="navbar-brand" href="inicioIsaias.html">Estudio Colaborativo</a>
+            <a class="navbar-brand" href="#">Estudio Colaborativo</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="inicioIsaias.html">Inicio</a>
-                </li>       
+                <a class="nav-link active" aria-current="i" href="inicioLogeado.html">Inicio</a>
+                </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="inicioIsaias.html">Quienes somos?</a>
-                </li>         
+                <a class="nav-link" href="perfilCesar.html">Mi Perfil</a>
+                </li>                        
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Foros
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="foroCande.html">Matematica</a></li>
+                    <li><a class="dropdown-item" href="foroCande.html">Lengua</a></li>
+                    <li><a class="dropdown-item" href="foroCande.html">Ciencias Sociales</a></li>
+                    <li><a class="dropdown-item" href="foroCande.html">Ciencias Naturales</a></li>                                               
+                </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="inicioIsaias.html">Salir
+                        <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                    </a>
+                </li>                        
             </ul>
             <p style = "color: green; ">Usuario logueado</p>
             <form class="d-flex" role="search">
@@ -40,6 +57,7 @@
         </div>
         </nav>
 </header>
+<!--CABECERA termina-->
 
   <body>
     <!-- <button type="submit" class="btn btn-primary btn-lg">Realiza una nueva publicacion</button> -->
@@ -47,6 +65,17 @@
         <input class="form-control" >
        <button class="btn btn-outline-success" type="submit"> <a href="./realizaPublicacionCande.html">Realiza una nueva publicacion</button></a>
     </form>
+
+
+    <article class="publicaciones">
+        <section class="publicaciones__cabecera">
+            <i class="fa-solid fa-bullhorn publicaciones__cabecera__icon"></i>
+            <p class="publicaciones__cabecera__texto">
+                Foro de Matematica
+            </p>
+        </section>
+
+
     <main class="contenedor-flex">
         <div class="container-fluid mt-100">
             <div class="row">
@@ -109,6 +138,82 @@
                     </div>
                 </div>
             </div>
+
+            <footer>
+
+                <div class="container-footer-all">
+    
+                    <div class="container-body">
+    
+                        <div class="colum1">
+                            <h1>Mas informacion de la compañia</h1>
+    
+                            <p>Esta pagina esta realizada por estudiantes del instituto  
+                                superior politecnico de cordoba para fines educativos .</p></p>
+    
+                        </div>
+    
+                        <div class="colum2">
+    
+                            <h1>Redes Sociales</h1>
+    
+                            <div class="row">
+                                <img src="../imagenes/imagen-facebok.png">
+                                <label>Siguenos en Facebook</label>
+                            </div>
+                            <div class="row">
+                                <img src="../imagenes/imagen-twiter.png">
+                                <label>Siguenos en Twitter</label>
+                            </div>
+                            <div class="row">
+                                <img src="../imagenes/imagen-instagram.png">
+                                <label>Siguenos en Instagram</label>
+                            </div>
+                            
+    
+    
+                        </div>
+    
+                        <div class="colum3">
+    
+                            <h1>Informacion Contactos</h1>
+    
+                            <div class="row2">
+                                <img src="../imagenes/imegen-house.png">
+                                <label>Cordoba-Capital</label>
+                            </div>
+    
+                            <div class="row2">
+                                <img src="../imagenes/imagen-celular.png">
+                                <label>3514085121</label>
+                            </div>
+    
+                            <div class="row2">
+                                <img src="../imagenes/imagen-contacto.png">
+                                <label>ruben_4912@hotmail.com</label>
+                            </div>
+    
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="container-footer">
+                    <div class="footer">
+                        <div class="copyright">
+                            © 2022 Todos los Derechos Reservados | <a>Grupo97|FullStack</a>
+                        </div>
+    
+                        <div class="information">
+                            <a href="">Informacion Compañia</a> | <a href="">Privacion y Politica</a> | <a href="">Terminos
+                                y Condiciones</a>
+                        </div>
+                    </div>
+    
+                </div>
+    
+            </footer>
     </body>
 </html>    
 
