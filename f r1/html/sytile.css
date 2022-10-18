@@ -1,0 +1,104 @@
+:root {
+    --color-dark: #15181f;
+    --color-dark-x: #80a0df;
+    --color-dark-xx: #1f232b;
+    --color-light: #ffff; 
+    --color-grey: #af315b; 
+  }
+  
+  body{
+      font-family: 'Roboto', sans-serif;
+      font-size: 1rem;
+      font-weight: 300; 
+      background-color: var (var(--color-dark));
+      color: var(--color-dark); 
+      letter-spacing: .05rem;   
+  }
+   
+  .contenedor-flex{
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .bg-light {
+      background: var (var(--color-dark-xx));
+  }
+  
+  .bg-dark {
+      background-color: var(--color-dark-x) !important;
+  }
+  
+  .p-6{
+      padding: 4rem 7rem;
+  }
+  
+  .contact-box {
+      padding: 3rem ;
+  }
+  
+  .btn{
+      font-weight: 400;
+      padding: 1rem 2rem;
+      border-radius: 5rem;
+      min-width: 10rem ;
+  }
+  
+  .btn-outline-dark {
+    border: 2px solid var(--color-dark-xx);
+  }
+  
+  .form-control {
+      background-color: var(--color-dark-xx);
+      border: 2px solid var(--color-dark-xx); 
+      border-radius: .2rem;
+      padding: 1.5rem 1rem; 
+  }
+  
+  #register {
+    background-image: url("../imagenes/Estudio\ Colaborativo.png");  
+       /* background-color: #f5f6f8;  */
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-height: 100vh;
+      min-width: 50vh;
+  }
+  
+  .testimonial {
+      bottom: 10px
+  }
+  
+  @media (max-width: 572.98px){
+      .p-6 {
+          padding: 2rem;
+     }
+     .contact-box {
+      padding: 0;
+     }
+  }
+  
+  footer{
+      width: 100%;
+      background: #202020;
+      color: white;   
+      
+  }
+  
+  .container-footer-all{
+      width: 100%;
+      max-width: 1200px;
+      margin: auto;
+      padding: 40px;
+  }
+  
+  .container-footer{
+      width: 100%;  
+      background: #101010;
+  }
+  
+  .footer{
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;  
+      padding: 20px;
+  }
